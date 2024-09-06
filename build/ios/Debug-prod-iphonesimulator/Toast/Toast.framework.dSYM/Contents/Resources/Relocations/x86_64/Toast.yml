@@ -1,0 +1,124 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Applications/Development/A2Z/shiper-mobile-dp-cargo/build/ios/Debug-prod-iphonesimulator/Toast/Toast.framework/Toast'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _ToastVersionString, symObjAddr: 0x0, symBinAddr: 0x4E00, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _ToastVersionNumber, symObjAddr: 0x28, symBinAddr: 0x4E28, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0xA3, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:]', symObjAddr: 0x0, symBinAddr: 0x1BA6, symSize: 0x9A }
+  - { offsetInCU: 0x40, offset: 0xBC, size: 0x8, addend: 0x0, symName: _CSToastPositionTop, symObjAddr: 0x3408, symBinAddr: 0x7920, symSize: 0x0 }
+  - { offsetInCU: 0xAA, offset: 0x126, size: 0x8, addend: 0x0, symName: _CSToastPositionCenter, symObjAddr: 0x3410, symBinAddr: 0x7928, symSize: 0x0 }
+  - { offsetInCU: 0xBF, offset: 0x13B, size: 0x8, addend: 0x0, symName: _CSToastPositionBottom, symObjAddr: 0x3418, symBinAddr: 0x7930, symSize: 0x0 }
+  - { offsetInCU: 0xD4, offset: 0x150, size: 0x8, addend: 0x0, symName: _CSToastTimerKey, symObjAddr: 0x3420, symBinAddr: 0x7938, symSize: 0x0 }
+  - { offsetInCU: 0xF3, offset: 0x16F, size: 0x8, addend: 0x0, symName: _CSToastDurationKey, symObjAddr: 0x3428, symBinAddr: 0x7940, symSize: 0x0 }
+  - { offsetInCU: 0x108, offset: 0x184, size: 0x8, addend: 0x0, symName: _CSToastPositionKey, symObjAddr: 0x3430, symBinAddr: 0x7948, symSize: 0x0 }
+  - { offsetInCU: 0x11D, offset: 0x199, size: 0x8, addend: 0x0, symName: _CSToastCompletionKey, symObjAddr: 0x3438, symBinAddr: 0x7950, symSize: 0x0 }
+  - { offsetInCU: 0x132, offset: 0x1AE, size: 0x8, addend: 0x0, symName: _CSToastActiveKey, symObjAddr: 0x3440, symBinAddr: 0x7958, symSize: 0x0 }
+  - { offsetInCU: 0x147, offset: 0x1C3, size: 0x8, addend: 0x0, symName: _CSToastActivityViewKey, symObjAddr: 0x3448, symBinAddr: 0x7960, symSize: 0x0 }
+  - { offsetInCU: 0x15C, offset: 0x1D8, size: 0x8, addend: 0x0, symName: _CSToastQueueKey, symObjAddr: 0x3450, symBinAddr: 0x7968, symSize: 0x0 }
+  - { offsetInCU: 0x165, offset: 0x1E1, size: 0x8, addend: 0x0, symName: '+[CSToastManager sharedManager]', symObjAddr: 0x2BF7, symBinAddr: 0x479D, symSize: 0x63 }
+  - { offsetInCU: 0x190, offset: 0x20C, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x151A0, symBinAddr: 0x7970, symSize: 0x0 }
+  - { offsetInCU: 0x1A6, offset: 0x222, size: 0x8, addend: 0x0, symName: _sharedManager.oncePredicate, symObjAddr: 0x151A8, symBinAddr: 0x7978, symSize: 0x0 }
+  - { offsetInCU: 0x789, offset: 0x805, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:]', symObjAddr: 0x0, symBinAddr: 0x1BA6, symSize: 0x9A }
+  - { offsetInCU: 0x847, offset: 0x8C3, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:duration:position:]', symObjAddr: 0x9A, symBinAddr: 0x1C40, symSize: 0x15 }
+  - { offsetInCU: 0x8C9, offset: 0x945, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:duration:position:style:]', symObjAddr: 0xAF, symBinAddr: 0x1C55, symSize: 0x90 }
+  - { offsetInCU: 0x9A7, offset: 0xA23, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToast:duration:position:title:image:style:completion:]', symObjAddr: 0x13F, symBinAddr: 0x1CE5, symSize: 0xBE }
+  - { offsetInCU: 0xACE, offset: 0xB4A, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) showToast:]', symObjAddr: 0x1FD, symBinAddr: 0x1DA3, symSize: 0x9A }
+  - { offsetInCU: 0xB8C, offset: 0xC08, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) showToast:duration:position:completion:]', symObjAddr: 0x297, symBinAddr: 0x1E3D, symSize: 0x1B6 }
+  - { offsetInCU: 0xD92, offset: 0xE0E, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) hideToast]', symObjAddr: 0x44D, symBinAddr: 0x1FF3, symSize: 0x6E }
+  - { offsetInCU: 0xE0E, offset: 0xE8A, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) hideToast:]', symObjAddr: 0x4BB, symBinAddr: 0x2061, symSize: 0x83 }
+  - { offsetInCU: 0xEB9, offset: 0xF35, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) hideAllToasts]', symObjAddr: 0x53E, symBinAddr: 0x20E4, symSize: 0x19 }
+  - { offsetInCU: 0xF04, offset: 0xF80, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) hideAllToasts:clearQueue:]', symObjAddr: 0x557, symBinAddr: 0x20FD, symSize: 0x174 }
+  - { offsetInCU: 0xFDF, offset: 0x105B, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) clearToastQueue]', symObjAddr: 0x6CB, symBinAddr: 0x2271, symSize: 0x3D }
+  - { offsetInCU: 0x1037, offset: 0x10B3, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_showToast:duration:position:]', symObjAddr: 0x708, symBinAddr: 0x22AE, symSize: 0x22B }
+  - { offsetInCU: 0x1259, offset: 0x12D5, size: 0x8, addend: 0x0, symName: '___48-[UIView(Toast) cs_showToast:duration:position:]_block_invoke', symObjAddr: 0x933, symBinAddr: 0x24D9, symSize: 0x1E }
+  - { offsetInCU: 0x129C, offset: 0x1318, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x951, symBinAddr: 0x24F7, symSize: 0xF }
+  - { offsetInCU: 0x12CB, offset: 0x1347, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x960, symBinAddr: 0x2506, symSize: 0xF }
+  - { offsetInCU: 0x12F3, offset: 0x136F, size: 0x8, addend: 0x0, symName: '___48-[UIView(Toast) cs_showToast:duration:position:]_block_invoke.87', symObjAddr: 0x96F, symBinAddr: 0x2515, symSize: 0xB3 }
+  - { offsetInCU: 0x13DC, offset: 0x1458, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xA22, symBinAddr: 0x25C8, symSize: 0x25 }
+  - { offsetInCU: 0x1418, offset: 0x1494, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xA47, symBinAddr: 0x25ED, symSize: 0x25 }
+  - { offsetInCU: 0x144B, offset: 0x14C7, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_hideToast:]', symObjAddr: 0xA6C, symBinAddr: 0x2612, symSize: 0x14 }
+  - { offsetInCU: 0x14A5, offset: 0x1521, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_hideToast:fromTap:]', symObjAddr: 0xA80, symBinAddr: 0x2626, symSize: 0x165 }
+  - { offsetInCU: 0x15F7, offset: 0x1673, size: 0x8, addend: 0x0, symName: '___38-[UIView(Toast) cs_hideToast:fromTap:]_block_invoke', symObjAddr: 0xBE5, symBinAddr: 0x278B, symSize: 0x19 }
+  - { offsetInCU: 0x163A, offset: 0x16B6, size: 0x8, addend: 0x0, symName: '___38-[UIView(Toast) cs_hideToast:fromTap:]_block_invoke_2', symObjAddr: 0xBFE, symBinAddr: 0x27A4, symSize: 0x1C3 }
+  - { offsetInCU: 0x1842, offset: 0x18BE, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) toastViewForMessage:title:image:style:]', symObjAddr: 0xDC1, symBinAddr: 0x2967, symSize: 0xD38 }
+  - { offsetInCU: 0x2242, offset: 0x22BE, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_activeToasts]', symObjAddr: 0x1AF9, symBinAddr: 0x369F, symSize: 0x68 }
+  - { offsetInCU: 0x22B8, offset: 0x2334, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_toastQueue]', symObjAddr: 0x1B61, symBinAddr: 0x3707, symSize: 0x68 }
+  - { offsetInCU: 0x232E, offset: 0x23AA, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_toastTimerDidFinish:]', symObjAddr: 0x1BC9, symBinAddr: 0x376F, symSize: 0x4F }
+  - { offsetInCU: 0x239E, offset: 0x241A, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_handleToastTapped:]', symObjAddr: 0x1C18, symBinAddr: 0x37BE, symSize: 0x85 }
+  - { offsetInCU: 0x24A5, offset: 0x2521, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) makeToastActivity:]', symObjAddr: 0x1C9D, symBinAddr: 0x3843, symSize: 0x4C7 }
+  - { offsetInCU: 0x290A, offset: 0x2986, size: 0x8, addend: 0x0, symName: '___35-[UIView(Toast) makeToastActivity:]_block_invoke', symObjAddr: 0x2164, symBinAddr: 0x3D0A, symSize: 0x1E }
+  - { offsetInCU: 0x2950, offset: 0x29CC, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) hideToastActivity]', symObjAddr: 0x2182, symBinAddr: 0x3D28, symSize: 0x14A }
+  - { offsetInCU: 0x2A37, offset: 0x2AB3, size: 0x8, addend: 0x0, symName: '___34-[UIView(Toast) hideToastActivity]_block_invoke', symObjAddr: 0x22CC, symBinAddr: 0x3E72, symSize: 0x19 }
+  - { offsetInCU: 0x2A7D, offset: 0x2AF9, size: 0x8, addend: 0x0, symName: '___34-[UIView(Toast) hideToastActivity]_block_invoke_2', symObjAddr: 0x22E5, symBinAddr: 0x3E8B, symSize: 0x37 }
+  - { offsetInCU: 0x2AFB, offset: 0x2B77, size: 0x8, addend: 0x0, symName: '-[UIView(Toast) cs_centerPointForPosition:withToast:]', symObjAddr: 0x231C, symBinAddr: 0x3EC2, symSize: 0x341 }
+  - { offsetInCU: 0x2CB1, offset: 0x2D2D, size: 0x8, addend: 0x0, symName: '-[CSToastStyle initWithDefaultStyle]', symObjAddr: 0x265D, symBinAddr: 0x4203, symSize: 0x2C8 }
+  - { offsetInCU: 0x2F27, offset: 0x2FA3, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setMaxWidthPercentage:]', symObjAddr: 0x2925, symBinAddr: 0x44CB, symSize: 0x1B }
+  - { offsetInCU: 0x2FC2, offset: 0x303E, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setMaxHeightPercentage:]', symObjAddr: 0x2940, symBinAddr: 0x44E6, symSize: 0x1B }
+  - { offsetInCU: 0x305D, offset: 0x30D9, size: 0x8, addend: 0x0, symName: '-[CSToastStyle init]', symObjAddr: 0x295B, symBinAddr: 0x4501, symSize: 0xE }
+  - { offsetInCU: 0x30A5, offset: 0x3121, size: 0x8, addend: 0x0, symName: '-[CSToastStyle backgroundColor]', symObjAddr: 0x2969, symBinAddr: 0x450F, symSize: 0xA }
+  - { offsetInCU: 0x30D7, offset: 0x3153, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setBackgroundColor:]', symObjAddr: 0x2973, symBinAddr: 0x4519, symSize: 0x11 }
+  - { offsetInCU: 0x3112, offset: 0x318E, size: 0x8, addend: 0x0, symName: '-[CSToastStyle titleColor]', symObjAddr: 0x2984, symBinAddr: 0x452A, symSize: 0xA }
+  - { offsetInCU: 0x3144, offset: 0x31C0, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setTitleColor:]', symObjAddr: 0x298E, symBinAddr: 0x4534, symSize: 0x11 }
+  - { offsetInCU: 0x317F, offset: 0x31FB, size: 0x8, addend: 0x0, symName: '-[CSToastStyle messageColor]', symObjAddr: 0x299F, symBinAddr: 0x4545, symSize: 0xA }
+  - { offsetInCU: 0x31B1, offset: 0x322D, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setMessageColor:]', symObjAddr: 0x29A9, symBinAddr: 0x454F, symSize: 0x11 }
+  - { offsetInCU: 0x31EC, offset: 0x3268, size: 0x8, addend: 0x0, symName: '-[CSToastStyle maxWidthPercentage]', symObjAddr: 0x29BA, symBinAddr: 0x4560, symSize: 0xB }
+  - { offsetInCU: 0x321E, offset: 0x329A, size: 0x8, addend: 0x0, symName: '-[CSToastStyle maxHeightPercentage]', symObjAddr: 0x29C5, symBinAddr: 0x456B, symSize: 0xB }
+  - { offsetInCU: 0x3250, offset: 0x32CC, size: 0x8, addend: 0x0, symName: '-[CSToastStyle horizontalPadding]', symObjAddr: 0x29D0, symBinAddr: 0x4576, symSize: 0xB }
+  - { offsetInCU: 0x3282, offset: 0x32FE, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setHorizontalPadding:]', symObjAddr: 0x29DB, symBinAddr: 0x4581, symSize: 0xB }
+  - { offsetInCU: 0x32BB, offset: 0x3337, size: 0x8, addend: 0x0, symName: '-[CSToastStyle verticalPadding]', symObjAddr: 0x29E6, symBinAddr: 0x458C, symSize: 0xB }
+  - { offsetInCU: 0x32EE, offset: 0x336A, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setVerticalPadding:]', symObjAddr: 0x29F1, symBinAddr: 0x4597, symSize: 0xB }
+  - { offsetInCU: 0x3328, offset: 0x33A4, size: 0x8, addend: 0x0, symName: '-[CSToastStyle cornerRadius]', symObjAddr: 0x29FC, symBinAddr: 0x45A2, symSize: 0xB }
+  - { offsetInCU: 0x335B, offset: 0x33D7, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setCornerRadius:]', symObjAddr: 0x2A07, symBinAddr: 0x45AD, symSize: 0xB }
+  - { offsetInCU: 0x3395, offset: 0x3411, size: 0x8, addend: 0x0, symName: '-[CSToastStyle titleFont]', symObjAddr: 0x2A12, symBinAddr: 0x45B8, symSize: 0xA }
+  - { offsetInCU: 0x33C8, offset: 0x3444, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setTitleFont:]', symObjAddr: 0x2A1C, symBinAddr: 0x45C2, symSize: 0x11 }
+  - { offsetInCU: 0x3404, offset: 0x3480, size: 0x8, addend: 0x0, symName: '-[CSToastStyle messageFont]', symObjAddr: 0x2A2D, symBinAddr: 0x45D3, symSize: 0xA }
+  - { offsetInCU: 0x3437, offset: 0x34B3, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setMessageFont:]', symObjAddr: 0x2A37, symBinAddr: 0x45DD, symSize: 0x11 }
+  - { offsetInCU: 0x3473, offset: 0x34EF, size: 0x8, addend: 0x0, symName: '-[CSToastStyle titleAlignment]', symObjAddr: 0x2A48, symBinAddr: 0x45EE, symSize: 0xA }
+  - { offsetInCU: 0x34A6, offset: 0x3522, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setTitleAlignment:]', symObjAddr: 0x2A52, symBinAddr: 0x45F8, symSize: 0xA }
+  - { offsetInCU: 0x34E0, offset: 0x355C, size: 0x8, addend: 0x0, symName: '-[CSToastStyle messageAlignment]', symObjAddr: 0x2A5C, symBinAddr: 0x4602, symSize: 0xA }
+  - { offsetInCU: 0x3513, offset: 0x358F, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setMessageAlignment:]', symObjAddr: 0x2A66, symBinAddr: 0x460C, symSize: 0xA }
+  - { offsetInCU: 0x354D, offset: 0x35C9, size: 0x8, addend: 0x0, symName: '-[CSToastStyle titleNumberOfLines]', symObjAddr: 0x2A70, symBinAddr: 0x4616, symSize: 0xA }
+  - { offsetInCU: 0x3580, offset: 0x35FC, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setTitleNumberOfLines:]', symObjAddr: 0x2A7A, symBinAddr: 0x4620, symSize: 0xA }
+  - { offsetInCU: 0x35BA, offset: 0x3636, size: 0x8, addend: 0x0, symName: '-[CSToastStyle messageNumberOfLines]', symObjAddr: 0x2A84, symBinAddr: 0x462A, symSize: 0xA }
+  - { offsetInCU: 0x35ED, offset: 0x3669, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setMessageNumberOfLines:]', symObjAddr: 0x2A8E, symBinAddr: 0x4634, symSize: 0xA }
+  - { offsetInCU: 0x3627, offset: 0x36A3, size: 0x8, addend: 0x0, symName: '-[CSToastStyle displayShadow]', symObjAddr: 0x2A98, symBinAddr: 0x463E, symSize: 0x9 }
+  - { offsetInCU: 0x365A, offset: 0x36D6, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setDisplayShadow:]', symObjAddr: 0x2AA1, symBinAddr: 0x4647, symSize: 0x9 }
+  - { offsetInCU: 0x3694, offset: 0x3710, size: 0x8, addend: 0x0, symName: '-[CSToastStyle shadowColor]', symObjAddr: 0x2AAA, symBinAddr: 0x4650, symSize: 0xD }
+  - { offsetInCU: 0x36C7, offset: 0x3743, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setShadowColor:]', symObjAddr: 0x2AB7, symBinAddr: 0x465D, symSize: 0x11 }
+  - { offsetInCU: 0x3703, offset: 0x377F, size: 0x8, addend: 0x0, symName: '-[CSToastStyle shadowOpacity]', symObjAddr: 0x2AC8, symBinAddr: 0x466E, symSize: 0xE }
+  - { offsetInCU: 0x3736, offset: 0x37B2, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setShadowOpacity:]', symObjAddr: 0x2AD6, symBinAddr: 0x467C, symSize: 0xE }
+  - { offsetInCU: 0x3770, offset: 0x37EC, size: 0x8, addend: 0x0, symName: '-[CSToastStyle shadowRadius]', symObjAddr: 0x2AE4, symBinAddr: 0x468A, symSize: 0xE }
+  - { offsetInCU: 0x37A3, offset: 0x381F, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setShadowRadius:]', symObjAddr: 0x2AF2, symBinAddr: 0x4698, symSize: 0xE }
+  - { offsetInCU: 0x37DD, offset: 0x3859, size: 0x8, addend: 0x0, symName: '-[CSToastStyle shadowOffset]', symObjAddr: 0x2B00, symBinAddr: 0x46A6, symSize: 0x16 }
+  - { offsetInCU: 0x3810, offset: 0x388C, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setShadowOffset:]', symObjAddr: 0x2B16, symBinAddr: 0x46BC, symSize: 0x16 }
+  - { offsetInCU: 0x384C, offset: 0x38C8, size: 0x8, addend: 0x0, symName: '-[CSToastStyle imageSize]', symObjAddr: 0x2B2C, symBinAddr: 0x46D2, symSize: 0x16 }
+  - { offsetInCU: 0x387F, offset: 0x38FB, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setImageSize:]', symObjAddr: 0x2B42, symBinAddr: 0x46E8, symSize: 0x16 }
+  - { offsetInCU: 0x38BB, offset: 0x3937, size: 0x8, addend: 0x0, symName: '-[CSToastStyle activitySize]', symObjAddr: 0x2B58, symBinAddr: 0x46FE, symSize: 0x16 }
+  - { offsetInCU: 0x38EE, offset: 0x396A, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setActivitySize:]', symObjAddr: 0x2B6E, symBinAddr: 0x4714, symSize: 0x16 }
+  - { offsetInCU: 0x392A, offset: 0x39A6, size: 0x8, addend: 0x0, symName: '-[CSToastStyle fadeDuration]', symObjAddr: 0x2B84, symBinAddr: 0x472A, symSize: 0xE }
+  - { offsetInCU: 0x395D, offset: 0x39D9, size: 0x8, addend: 0x0, symName: '-[CSToastStyle setFadeDuration:]', symObjAddr: 0x2B92, symBinAddr: 0x4738, symSize: 0xE }
+  - { offsetInCU: 0x3997, offset: 0x3A13, size: 0x8, addend: 0x0, symName: '-[CSToastStyle .cxx_destruct]', symObjAddr: 0x2BA0, symBinAddr: 0x4746, symSize: 0x57 }
+  - { offsetInCU: 0x3A6D, offset: 0x3AE9, size: 0x8, addend: 0x0, symName: '___31+[CSToastManager sharedManager]_block_invoke', symObjAddr: 0x2C5A, symBinAddr: 0x4800, symSize: 0x32 }
+  - { offsetInCU: 0x3AC2, offset: 0x3B3E, size: 0x8, addend: 0x0, symName: '-[CSToastManager init]', symObjAddr: 0x2C8C, symBinAddr: 0x4832, symSize: 0xCE }
+  - { offsetInCU: 0x3B78, offset: 0x3BF4, size: 0x8, addend: 0x0, symName: '+[CSToastManager setSharedStyle:]', symObjAddr: 0x2D5A, symBinAddr: 0x4900, symSize: 0x69 }
+  - { offsetInCU: 0x3C0D, offset: 0x3C89, size: 0x8, addend: 0x0, symName: '+[CSToastManager sharedStyle]', symObjAddr: 0x2DC3, symBinAddr: 0x4969, symSize: 0x50 }
+  - { offsetInCU: 0x3C6A, offset: 0x3CE6, size: 0x8, addend: 0x0, symName: '+[CSToastManager setTapToDismissEnabled:]', symObjAddr: 0x2E13, symBinAddr: 0x49B9, symSize: 0x4A }
+  - { offsetInCU: 0x3CDA, offset: 0x3D56, size: 0x8, addend: 0x0, symName: '+[CSToastManager isTapToDismissEnabled]', symObjAddr: 0x2E5D, symBinAddr: 0x4A03, symSize: 0x44 }
+  - { offsetInCU: 0x3D37, offset: 0x3DB3, size: 0x8, addend: 0x0, symName: '+[CSToastManager setQueueEnabled:]', symObjAddr: 0x2EA1, symBinAddr: 0x4A47, symSize: 0x4A }
+  - { offsetInCU: 0x3DA7, offset: 0x3E23, size: 0x8, addend: 0x0, symName: '+[CSToastManager isQueueEnabled]', symObjAddr: 0x2EEB, symBinAddr: 0x4A91, symSize: 0x44 }
+  - { offsetInCU: 0x3E04, offset: 0x3E80, size: 0x8, addend: 0x0, symName: '+[CSToastManager setDefaultDuration:]', symObjAddr: 0x2F2F, symBinAddr: 0x4AD5, symSize: 0x4F }
+  - { offsetInCU: 0x3E76, offset: 0x3EF2, size: 0x8, addend: 0x0, symName: '+[CSToastManager defaultDuration]', symObjAddr: 0x2F7E, symBinAddr: 0x4B24, symSize: 0x50 }
+  - { offsetInCU: 0x3ED3, offset: 0x3F4F, size: 0x8, addend: 0x0, symName: '+[CSToastManager setDefaultPosition:]', symObjAddr: 0x2FCE, symBinAddr: 0x4B74, symSize: 0xB4 }
+  - { offsetInCU: 0x3FBC, offset: 0x4038, size: 0x8, addend: 0x0, symName: '+[CSToastManager defaultPosition]', symObjAddr: 0x3082, symBinAddr: 0x4C28, symSize: 0x50 }
+  - { offsetInCU: 0x4019, offset: 0x4095, size: 0x8, addend: 0x0, symName: '-[CSToastManager sharedStyle]', symObjAddr: 0x30D2, symBinAddr: 0x4C78, symSize: 0xA }
+  - { offsetInCU: 0x404C, offset: 0x40C8, size: 0x8, addend: 0x0, symName: '-[CSToastManager setSharedStyle:]', symObjAddr: 0x30DC, symBinAddr: 0x4C82, symSize: 0x11 }
+  - { offsetInCU: 0x4088, offset: 0x4104, size: 0x8, addend: 0x0, symName: '-[CSToastManager isTapToDismissEnabled]', symObjAddr: 0x30ED, symBinAddr: 0x4C93, symSize: 0x9 }
+  - { offsetInCU: 0x40BB, offset: 0x4137, size: 0x8, addend: 0x0, symName: '-[CSToastManager setTapToDismissEnabled:]', symObjAddr: 0x30F6, symBinAddr: 0x4C9C, symSize: 0x9 }
+  - { offsetInCU: 0x40F5, offset: 0x4171, size: 0x8, addend: 0x0, symName: '-[CSToastManager isQueueEnabled]', symObjAddr: 0x30FF, symBinAddr: 0x4CA5, symSize: 0x9 }
+  - { offsetInCU: 0x4128, offset: 0x41A4, size: 0x8, addend: 0x0, symName: '-[CSToastManager setQueueEnabled:]', symObjAddr: 0x3108, symBinAddr: 0x4CAE, symSize: 0x9 }
+  - { offsetInCU: 0x4162, offset: 0x41DE, size: 0x8, addend: 0x0, symName: '-[CSToastManager defaultDuration]', symObjAddr: 0x3111, symBinAddr: 0x4CB7, symSize: 0xB }
+  - { offsetInCU: 0x4195, offset: 0x4211, size: 0x8, addend: 0x0, symName: '-[CSToastManager setDefaultDuration:]', symObjAddr: 0x311C, symBinAddr: 0x4CC2, symSize: 0xB }
+  - { offsetInCU: 0x41CF, offset: 0x424B, size: 0x8, addend: 0x0, symName: '-[CSToastManager defaultPosition]', symObjAddr: 0x3127, symBinAddr: 0x4CCD, symSize: 0xA }
+  - { offsetInCU: 0x4202, offset: 0x427E, size: 0x8, addend: 0x0, symName: '-[CSToastManager setDefaultPosition:]', symObjAddr: 0x3131, symBinAddr: 0x4CD7, symSize: 0x11 }
+  - { offsetInCU: 0x423E, offset: 0x42BA, size: 0x8, addend: 0x0, symName: '-[CSToastManager .cxx_destruct]', symObjAddr: 0x3142, symBinAddr: 0x4CE8, symSize: 0x28 }
+...

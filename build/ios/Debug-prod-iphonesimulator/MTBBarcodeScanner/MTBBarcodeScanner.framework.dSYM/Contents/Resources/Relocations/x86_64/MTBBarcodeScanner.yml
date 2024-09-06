@@ -1,0 +1,123 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Applications/Development/A2Z/shiper-mobile-dp-cargo/build/ios/Debug-prod-iphonesimulator/MTBBarcodeScanner/MTBBarcodeScanner.framework/MTBBarcodeScanner'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x6EE3E, size: 0x8, addend: 0x0, symName: _MTBBarcodeScannerVersionString, symObjAddr: 0x0, symBinAddr: 0x5960, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x6EE73, size: 0x8, addend: 0x0, symName: _MTBBarcodeScannerVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5990, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x6EEB0, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner init]', symObjAddr: 0x0, symBinAddr: 0x1300, symSize: 0xE }
+  - { offsetInCU: 0x41, offset: 0x6EECA, size: 0x8, addend: 0x0, symName: _kFocalPointOfInterestX, symObjAddr: 0x3F60, symBinAddr: 0x59C0, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x6EEEC, size: 0x8, addend: 0x0, symName: _kFocalPointOfInterestY, symObjAddr: 0x3F68, symBinAddr: 0x59C8, symSize: 0x0 }
+  - { offsetInCU: 0x569, offset: 0x6F3F2, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner init]', symObjAddr: 0x0, symBinAddr: 0x1300, symSize: 0xE }
+  - { offsetInCU: 0x5B5, offset: 0x6F43E, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner initWithPreviewView:]', symObjAddr: 0xE, symBinAddr: 0x130E, symSize: 0x71 }
+  - { offsetInCU: 0x660, offset: 0x6F4E9, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner initWithMetadataObjectTypes:previewView:]', symObjAddr: 0x7F, symBinAddr: 0x137F, symSize: 0xC7 }
+  - { offsetInCU: 0x730, offset: 0x6F5B9, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner dealloc]', symObjAddr: 0x146, symBinAddr: 0x1446, symSize: 0x75 }
+  - { offsetInCU: 0x797, offset: 0x6F620, size: 0x8, addend: 0x0, symName: '+[MTBBarcodeScanner cameraIsPresent]', symObjAddr: 0x1BB, symBinAddr: 0x14BB, symSize: 0x44 }
+  - { offsetInCU: 0x7E2, offset: 0x6F66B, size: 0x8, addend: 0x0, symName: '+[MTBBarcodeScanner hasCamera:]', symObjAddr: 0x1FF, symBinAddr: 0x14FF, symSize: 0x1D5 }
+  - { offsetInCU: 0x914, offset: 0x6F79D, size: 0x8, addend: 0x0, symName: '+[MTBBarcodeScanner oppositeCameraOf:]', symObjAddr: 0x3D4, symBinAddr: 0x16D4, symSize: 0xE }
+  - { offsetInCU: 0x955, offset: 0x6F7DE, size: 0x8, addend: 0x0, symName: '+[MTBBarcodeScanner scanningIsProhibited]', symObjAddr: 0x3E2, symBinAddr: 0x16E2, symSize: 0x2E }
+  - { offsetInCU: 0x994, offset: 0x6F81D, size: 0x8, addend: 0x0, symName: '+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]', symObjAddr: 0x410, symBinAddr: 0x1710, symSize: 0xF9 }
+  - { offsetInCU: 0xA76, offset: 0x6F8FF, size: 0x8, addend: 0x0, symName: '___56+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]_block_invoke', symObjAddr: 0x509, symBinAddr: 0x1809, symSize: 0x6E }
+  - { offsetInCU: 0xB05, offset: 0x6F98E, size: 0x8, addend: 0x0, symName: '___56+[MTBBarcodeScanner requestCameraPermissionWithSuccess:]_block_invoke_2', symObjAddr: 0x577, symBinAddr: 0x1877, symSize: 0x16 }
+  - { offsetInCU: 0xB5F, offset: 0x6F9E8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x58D, symBinAddr: 0x188D, symSize: 0x17 }
+  - { offsetInCU: 0xB88, offset: 0x6FA11, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x5A4, symBinAddr: 0x18A4, symSize: 0xF }
+  - { offsetInCU: 0xBB3, offset: 0x6FA3C, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner startScanningWithError:]', symObjAddr: 0x5B3, symBinAddr: 0x18B3, symSize: 0x56 }
+  - { offsetInCU: 0xC37, offset: 0x6FAC0, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner startScanningWithResultBlock:error:]', symObjAddr: 0x609, symBinAddr: 0x1909, symSize: 0x1A }
+  - { offsetInCU: 0xCBA, offset: 0x6FB43, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]', symObjAddr: 0x623, symBinAddr: 0x1923, symSize: 0x35D }
+  - { offsetInCU: 0xFD3, offset: 0x6FE5C, size: 0x8, addend: 0x0, symName: '___63-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]_block_invoke', symObjAddr: 0x980, symBinAddr: 0x1C80, symSize: 0x15F }
+  - { offsetInCU: 0x109C, offset: 0x6FF25, size: 0x8, addend: 0x0, symName: '___63-[MTBBarcodeScanner startScanningWithCamera:resultBlock:error:]_block_invoke_2', symObjAddr: 0xADF, symBinAddr: 0x1DDF, symSize: 0x37 }
+  - { offsetInCU: 0x110A, offset: 0x6FF93, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xB16, symBinAddr: 0x1E16, symSize: 0xF }
+  - { offsetInCU: 0x113D, offset: 0x6FFC6, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner stopScanning]', symObjAddr: 0xB25, symBinAddr: 0x1E25, symSize: 0x1C1 }
+  - { offsetInCU: 0x134B, offset: 0x701D4, size: 0x8, addend: 0x0, symName: '___33-[MTBBarcodeScanner stopScanning]_block_invoke', symObjAddr: 0xCE6, symBinAddr: 0x1FE6, symSize: 0x16E }
+  - { offsetInCU: 0x143C, offset: 0x702C5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0xE54, symBinAddr: 0x2154, symSize: 0x2C }
+  - { offsetInCU: 0x1489, offset: 0x70312, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0xE80, symBinAddr: 0x2180, symSize: 0x2C }
+  - { offsetInCU: 0x14CC, offset: 0x70355, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner isScanning]', symObjAddr: 0xEAC, symBinAddr: 0x21AC, symSize: 0x44 }
+  - { offsetInCU: 0x1530, offset: 0x703B9, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner hasOppositeCamera]', symObjAddr: 0xEF0, symBinAddr: 0x21F0, symSize: 0x68 }
+  - { offsetInCU: 0x15EC, offset: 0x70475, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner flipCamera]', symObjAddr: 0xF58, symBinAddr: 0x2258, symSize: 0x14 }
+  - { offsetInCU: 0x1639, offset: 0x704C2, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner flipCameraWithError:]', symObjAddr: 0xF6C, symBinAddr: 0x226C, symSize: 0x154 }
+  - { offsetInCU: 0x172B, offset: 0x705B4, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner configureTapToFocus]', symObjAddr: 0x10C0, symBinAddr: 0x23C0, symSize: 0xBD }
+  - { offsetInCU: 0x180B, offset: 0x70694, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner focusTapped:]', symObjAddr: 0x117D, symBinAddr: 0x247D, symSize: 0x219 }
+  - { offsetInCU: 0x1A6D, offset: 0x708F6, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner stopRecognizingTaps]', symObjAddr: 0x1396, symBinAddr: 0x2696, symSize: 0xA0 }
+  - { offsetInCU: 0x1B0D, offset: 0x70996, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureOutput:didOutputMetadataObjects:fromConnection:]', symObjAddr: 0x1436, symBinAddr: 0x2736, symSize: 0x285 }
+  - { offsetInCU: 0x1CDB, offset: 0x70B64, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner handleApplicationDidChangeStatusBarNotification:]', symObjAddr: 0x16BB, symBinAddr: 0x29BB, symSize: 0x12 }
+  - { offsetInCU: 0x1D2F, offset: 0x70BB8, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner refreshVideoOrientation]', symObjAddr: 0x16CD, symBinAddr: 0x29CD, symSize: 0x1A3 }
+  - { offsetInCU: 0x1EA9, offset: 0x70D32, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureOrientationForInterfaceOrientation:]', symObjAddr: 0x1870, symBinAddr: 0x2B70, symSize: 0x17 }
+  - { offsetInCU: 0x1EEC, offset: 0x70D75, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner applicationWillEnterForegroundNotification:]', symObjAddr: 0x1887, symBinAddr: 0x2B87, symSize: 0x33 }
+  - { offsetInCU: 0x1F5C, offset: 0x70DE5, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner newSessionWithCaptureDevice:error:]', symObjAddr: 0x18BA, symBinAddr: 0x2BBA, symSize: 0x5D6 }
+  - { offsetInCU: 0x246A, offset: 0x712F3, size: 0x8, addend: 0x0, symName: '___55-[MTBBarcodeScanner newSessionWithCaptureDevice:error:]_block_invoke', symObjAddr: 0x1E90, symBinAddr: 0x3190, symSize: 0xBD }
+  - { offsetInCU: 0x24D8, offset: 0x71361, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner newCaptureDeviceWithCamera:]', symObjAddr: 0x1F4D, symBinAddr: 0x324D, symSize: 0x2CC }
+  - { offsetInCU: 0x26FE, offset: 0x71587, size: 0x8, addend: 0x0, symName: '+[MTBBarcodeScanner devicePositionForCamera:]', symObjAddr: 0x2219, symBinAddr: 0x3519, symSize: 0x1B }
+  - { offsetInCU: 0x2741, offset: 0x715CA, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner defaultMetaDataObjectTypes]', symObjAddr: 0x2234, symBinAddr: 0x3534, symSize: 0x1B5 }
+  - { offsetInCU: 0x280E, offset: 0x71697, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner addObservers]', symObjAddr: 0x23E9, symBinAddr: 0x36E9, symSize: 0xBA }
+  - { offsetInCU: 0x28C4, offset: 0x7174D, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setupSessionQueue]', symObjAddr: 0x24A3, symBinAddr: 0x37A3, symSize: 0x66 }
+  - { offsetInCU: 0x296F, offset: 0x717F8, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setDeviceInput:session:]', symObjAddr: 0x2509, symBinAddr: 0x3809, symSize: 0xEB }
+  - { offsetInCU: 0x2AB8, offset: 0x71941, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner removeDeviceInput:session:]', symObjAddr: 0x25F4, symBinAddr: 0x38F4, symSize: 0xBF }
+  - { offsetInCU: 0x2BC5, offset: 0x71A4E, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner updateFocusPreferencesOfDevice:reset:]', symObjAddr: 0x26B3, symBinAddr: 0x39B3, symSize: 0x1E7 }
+  - { offsetInCU: 0x2DE2, offset: 0x71C6B, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setTorchMode:]', symObjAddr: 0x289A, symBinAddr: 0x3B9A, symSize: 0x14 }
+  - { offsetInCU: 0x2E46, offset: 0x71CCF, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setTorchMode:error:]', symObjAddr: 0x28AE, symBinAddr: 0x3BAE, symSize: 0x27 }
+  - { offsetInCU: 0x2EC5, offset: 0x71D4E, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner toggleTorch]', symObjAddr: 0x28D5, symBinAddr: 0x3BD5, symSize: 0x47 }
+  - { offsetInCU: 0x2F22, offset: 0x71DAB, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner updateForTorchMode:error:]', symObjAddr: 0x291C, symBinAddr: 0x3C1C, symSize: 0x19F }
+  - { offsetInCU: 0x307A, offset: 0x71F03, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner hasTorch]', symObjAddr: 0x2ABB, symBinAddr: 0x3DBB, symSize: 0xC8 }
+  - { offsetInCU: 0x318C, offset: 0x72015, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner avTorchModeForMTBTorchMode:]', symObjAddr: 0x2B83, symBinAddr: 0x3E83, symSize: 0xF }
+  - { offsetInCU: 0x31CF, offset: 0x72058, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner freezeCapture]', symObjAddr: 0x2B92, symBinAddr: 0x3E92, symSize: 0xE2 }
+  - { offsetInCU: 0x32AD, offset: 0x72136, size: 0x8, addend: 0x0, symName: '___34-[MTBBarcodeScanner freezeCapture]_block_invoke', symObjAddr: 0x2C74, symBinAddr: 0x3F74, symSize: 0x54 }
+  - { offsetInCU: 0x333F, offset: 0x721C8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x2CC8, symBinAddr: 0x3FC8, symSize: 0x25 }
+  - { offsetInCU: 0x3380, offset: 0x72209, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x2CED, symBinAddr: 0x3FED, symSize: 0x25 }
+  - { offsetInCU: 0x33B7, offset: 0x72240, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner unfreezeCapture]', symObjAddr: 0x2D12, symBinAddr: 0x4012, symSize: 0x1AB }
+  - { offsetInCU: 0x3534, offset: 0x723BD, size: 0x8, addend: 0x0, symName: '___36-[MTBBarcodeScanner unfreezeCapture]_block_invoke', symObjAddr: 0x2EBD, symBinAddr: 0x41BD, symSize: 0x62 }
+  - { offsetInCU: 0x35C6, offset: 0x7244F, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureStillImage:]', symObjAddr: 0x2F1F, symBinAddr: 0x421F, symSize: 0x394 }
+  - { offsetInCU: 0x38C4, offset: 0x7274D, size: 0x8, addend: 0x0, symName: '___39-[MTBBarcodeScanner captureStillImage:]_block_invoke', symObjAddr: 0x32B3, symBinAddr: 0x45B3, symSize: 0x69 }
+  - { offsetInCU: 0x3960, offset: 0x727E9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x331C, symBinAddr: 0x461C, symSize: 0x44 }
+  - { offsetInCU: 0x39A1, offset: 0x7282A, size: 0x8, addend: 0x0, symName: '___39-[MTBBarcodeScanner captureStillImage:]_block_invoke.334', symObjAddr: 0x3360, symBinAddr: 0x4660, symSize: 0xA0 }
+  - { offsetInCU: 0x3A97, offset: 0x72920, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureOutput:didFinishProcessingPhoto:error:]', symObjAddr: 0x3400, symBinAddr: 0x4700, symSize: 0x1C8 }
+  - { offsetInCU: 0x3C54, offset: 0x72ADD, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureOutput:didFinishProcessingPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:]', symObjAddr: 0x35C8, symBinAddr: 0x48C8, symSize: 0x101 }
+  - { offsetInCU: 0x3DB2, offset: 0x72C3B, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner isCapturingStillImage]', symObjAddr: 0x36C9, symBinAddr: 0x49C9, symSize: 0x44 }
+  - { offsetInCU: 0x3E16, offset: 0x72C9F, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setCamera:]', symObjAddr: 0x370D, symBinAddr: 0x4A0D, symSize: 0x14 }
+  - { offsetInCU: 0x3E7A, offset: 0x72D03, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setCamera:error:]', symObjAddr: 0x3721, symBinAddr: 0x4A21, symSize: 0x19F }
+  - { offsetInCU: 0x3FB4, offset: 0x72E3D, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setScanRect:]', symObjAddr: 0x38C0, symBinAddr: 0x4BC0, symSize: 0xB9 }
+  - { offsetInCU: 0x405E, offset: 0x72EE7, size: 0x8, addend: 0x0, symName: '___33-[MTBBarcodeScanner setScanRect:]_block_invoke', symObjAddr: 0x3979, symBinAddr: 0x4C79, symSize: 0xC8 }
+  - { offsetInCU: 0x40EC, offset: 0x72F75, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setPreferredAutoFocusRangeRestriction:]', symObjAddr: 0x3A41, symBinAddr: 0x4D41, symSize: 0xAF }
+  - { offsetInCU: 0x41A3, offset: 0x7302C, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner previewLayer]', symObjAddr: 0x3AF0, symBinAddr: 0x4DF0, symSize: 0x12 }
+  - { offsetInCU: 0x423E, offset: 0x730C7, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner rectOfInterestFromScanRect:]', symObjAddr: 0x3B02, symBinAddr: 0x4E02, symSize: 0xFC }
+  - { offsetInCU: 0x431A, offset: 0x731A3, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner camera]', symObjAddr: 0x3BFE, symBinAddr: 0x4EFE, symSize: 0xA }
+  - { offsetInCU: 0x434F, offset: 0x731D8, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner torchMode]', symObjAddr: 0x3C08, symBinAddr: 0x4F08, symSize: 0xA }
+  - { offsetInCU: 0x4384, offset: 0x7320D, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner allowTapToFocus]', symObjAddr: 0x3C12, symBinAddr: 0x4F12, symSize: 0x9 }
+  - { offsetInCU: 0x43B9, offset: 0x73242, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setAllowTapToFocus:]', symObjAddr: 0x3C1B, symBinAddr: 0x4F1B, symSize: 0x9 }
+  - { offsetInCU: 0x43F6, offset: 0x7327F, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner scanRect]', symObjAddr: 0x3C24, symBinAddr: 0x4F24, symSize: 0x1E }
+  - { offsetInCU: 0x442B, offset: 0x732B4, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setPreviewLayer:]', symObjAddr: 0x3C42, symBinAddr: 0x4F42, symSize: 0x11 }
+  - { offsetInCU: 0x446A, offset: 0x732F3, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner didStartScanningBlock]', symObjAddr: 0x3C53, symBinAddr: 0x4F53, symSize: 0xA }
+  - { offsetInCU: 0x449F, offset: 0x73328, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setDidStartScanningBlock:]', symObjAddr: 0x3C5D, symBinAddr: 0x4F5D, symSize: 0xF }
+  - { offsetInCU: 0x44DE, offset: 0x73367, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner didTapToFocusBlock]', symObjAddr: 0x3C6C, symBinAddr: 0x4F6C, symSize: 0xA }
+  - { offsetInCU: 0x4513, offset: 0x7339C, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setDidTapToFocusBlock:]', symObjAddr: 0x3C76, symBinAddr: 0x4F76, symSize: 0xF }
+  - { offsetInCU: 0x4552, offset: 0x733DB, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner resultBlock]', symObjAddr: 0x3C85, symBinAddr: 0x4F85, symSize: 0xA }
+  - { offsetInCU: 0x4587, offset: 0x73410, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setResultBlock:]', symObjAddr: 0x3C8F, symBinAddr: 0x4F8F, symSize: 0xF }
+  - { offsetInCU: 0x45C6, offset: 0x7344F, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner preferredAutoFocusRangeRestriction]', symObjAddr: 0x3C9E, symBinAddr: 0x4F9E, symSize: 0xA }
+  - { offsetInCU: 0x45FB, offset: 0x73484, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner privateSessionQueue]', symObjAddr: 0x3CA8, symBinAddr: 0x4FA8, symSize: 0x14 }
+  - { offsetInCU: 0x4632, offset: 0x734BB, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setPrivateSessionQueue:]', symObjAddr: 0x3CBC, symBinAddr: 0x4FBC, symSize: 0xF }
+  - { offsetInCU: 0x4671, offset: 0x734FA, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner session]', symObjAddr: 0x3CCB, symBinAddr: 0x4FCB, symSize: 0xA }
+  - { offsetInCU: 0x46A6, offset: 0x7352F, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setSession:]', symObjAddr: 0x3CD5, symBinAddr: 0x4FD5, symSize: 0x11 }
+  - { offsetInCU: 0x46E5, offset: 0x7356E, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureDevice]', symObjAddr: 0x3CE6, symBinAddr: 0x4FE6, symSize: 0xA }
+  - { offsetInCU: 0x471A, offset: 0x735A3, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setCaptureDevice:]', symObjAddr: 0x3CF0, symBinAddr: 0x4FF0, symSize: 0x11 }
+  - { offsetInCU: 0x4759, offset: 0x735E2, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner capturePreviewLayer]', symObjAddr: 0x3D01, symBinAddr: 0x5001, symSize: 0xA }
+  - { offsetInCU: 0x478E, offset: 0x73617, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setCapturePreviewLayer:]', symObjAddr: 0x3D0B, symBinAddr: 0x500B, symSize: 0x11 }
+  - { offsetInCU: 0x47CD, offset: 0x73656, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner currentCaptureDeviceInput]', symObjAddr: 0x3D1C, symBinAddr: 0x501C, symSize: 0xA }
+  - { offsetInCU: 0x4802, offset: 0x7368B, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setCurrentCaptureDeviceInput:]', symObjAddr: 0x3D26, symBinAddr: 0x5026, symSize: 0x11 }
+  - { offsetInCU: 0x4841, offset: 0x736CA, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner captureOutput]', symObjAddr: 0x3D37, symBinAddr: 0x5037, symSize: 0xA }
+  - { offsetInCU: 0x4876, offset: 0x736FF, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setCaptureOutput:]', symObjAddr: 0x3D41, symBinAddr: 0x5041, symSize: 0x11 }
+  - { offsetInCU: 0x48B5, offset: 0x7373E, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner metaDataObjectTypes]', symObjAddr: 0x3D52, symBinAddr: 0x5052, symSize: 0xA }
+  - { offsetInCU: 0x48EA, offset: 0x73773, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setMetaDataObjectTypes:]', symObjAddr: 0x3D5C, symBinAddr: 0x505C, symSize: 0xF }
+  - { offsetInCU: 0x4929, offset: 0x737B2, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner previewView]', symObjAddr: 0x3D6B, symBinAddr: 0x506B, symSize: 0x16 }
+  - { offsetInCU: 0x4960, offset: 0x737E9, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setPreviewView:]', symObjAddr: 0x3D81, symBinAddr: 0x5081, symSize: 0x11 }
+  - { offsetInCU: 0x499F, offset: 0x73828, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner initialAutoFocusRangeRestriction]', symObjAddr: 0x3D92, symBinAddr: 0x5092, symSize: 0xD }
+  - { offsetInCU: 0x49D4, offset: 0x7385D, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setInitialAutoFocusRangeRestriction:]', symObjAddr: 0x3D9F, symBinAddr: 0x509F, symSize: 0xD }
+  - { offsetInCU: 0x4A11, offset: 0x7389A, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner initialFocusPoint]', symObjAddr: 0x3DAC, symBinAddr: 0x50AC, symSize: 0x16 }
+  - { offsetInCU: 0x4A46, offset: 0x738CF, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setInitialFocusPoint:]', symObjAddr: 0x3DC2, symBinAddr: 0x50C2, symSize: 0x16 }
+  - { offsetInCU: 0x4A85, offset: 0x7390E, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner stillImageOutput]', symObjAddr: 0x3DD8, symBinAddr: 0x50D8, symSize: 0xD }
+  - { offsetInCU: 0x4ABA, offset: 0x73943, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setStillImageOutput:]', symObjAddr: 0x3DE5, symBinAddr: 0x50E5, symSize: 0x14 }
+  - { offsetInCU: 0x4AF9, offset: 0x73982, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner gestureRecognizer]', symObjAddr: 0x3DF9, symBinAddr: 0x50F9, symSize: 0xD }
+  - { offsetInCU: 0x4B2E, offset: 0x739B7, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setGestureRecognizer:]', symObjAddr: 0x3E06, symBinAddr: 0x5106, symSize: 0x14 }
+  - { offsetInCU: 0x4B6D, offset: 0x739F6, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner stillImageCaptureBlock]', symObjAddr: 0x3E1A, symBinAddr: 0x511A, symSize: 0xD }
+  - { offsetInCU: 0x4BA2, offset: 0x73A2B, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setStillImageCaptureBlock:]', symObjAddr: 0x3E27, symBinAddr: 0x5127, symSize: 0xF }
+  - { offsetInCU: 0x4BE1, offset: 0x73A6A, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner output]', symObjAddr: 0x3E36, symBinAddr: 0x5136, symSize: 0xD }
+  - { offsetInCU: 0x4C16, offset: 0x73A9F, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner setOutput:]', symObjAddr: 0x3E43, symBinAddr: 0x5143, symSize: 0x14 }
+  - { offsetInCU: 0x4C55, offset: 0x73ADE, size: 0x8, addend: 0x0, symName: '-[MTBBarcodeScanner .cxx_destruct]', symObjAddr: 0x3E57, symBinAddr: 0x5157, symSize: 0xD9 }
+...
