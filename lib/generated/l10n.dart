@@ -19,7 +19,7 @@ class S {
 
   static S get current {
     assert(_current != null,
-    'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
     return _current!;
   }
 
@@ -42,7 +42,7 @@ class S {
   static S of(BuildContext context) {
     final instance = S.maybeOf(context);
     assert(instance != null,
-    'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
     return instance!;
   }
 
@@ -365,26 +365,6 @@ class S {
     return Intl.message(
       'Nữ',
       name: 'female',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Khác`
-  String get other {
-    return Intl.message(
-      'Khác',
-      name: 'other',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Khác`
-  String get isNull {
-    return Intl.message(
-      '- -',
-      name: 'isNull',
       desc: '',
       args: [],
     );
@@ -1980,49 +1960,10 @@ class S {
     );
   }
 
-  /// `Đơn đã giao`
-  String get orderDelivered {
-    return Intl.message(
-      "Hoàn thành",
-      name: 'orderDelivered',
-      desc: '',
-      args: [],
-    );
-  }
-
-  String get orderList {
-    return Intl.message(
-      "Đơn hàng",
-      name: 'order_list',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Đơn đã giao`
-  String get hotLine {
-    return Intl.message(
-      "Gọi điện",
-      name: 'hotLine',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `barcode`
-  String get barcode {
-    return Intl.message(
-      "Quét mã",
-      name: 'barcode',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Gọi điện thành công`
   String get returns_order_success {
     return Intl.message(
-      "Gọi điện thành công",
+      'Gọi điện thành công',
       name: 'returns_order_success',
       desc: '',
       args: [],
@@ -2032,7 +1973,7 @@ class S {
   /// `Nhận đơn thành công`
   String get receive_order_success {
     return Intl.message(
-      "Nhận đơn thành công",
+      'Nhận đơn thành công',
       name: 'receive_order_success',
       desc: '',
       args: [],
@@ -2042,27 +1983,18 @@ class S {
   /// `Về trang chủ`
   String get homepage {
     return Intl.message(
-      "Về trang chủ",
+      'Về trang chủ',
       name: 'homepage',
       desc: '',
       args: [],
     );
   }
 
-  /// `Về trang chủ`
+  /// `Khách hàng`
   String get customer {
     return Intl.message(
-      "Khách hàng",
+      'Khách hàng',
       name: 'customer',
-      desc: '',
-      args: [],
-    );
-  }
-
-  String get input_hint_note {
-    return Intl.message(
-      'Nhập ghi chú',
-      name: 'input_hint_note',
       desc: '',
       args: [],
     );
